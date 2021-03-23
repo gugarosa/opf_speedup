@@ -61,7 +61,7 @@ if __name__ == '__main__':
 
     # Iterates through every distance
     for i, key in enumerate(d.DISTANCES.keys()):
-        # Creates a SupervisedOPF with the iterated distance
+        # Creates a TimedOPF with the iterated distance
         opf = TimedOPF(distance=key)
 
         # Fits training data into the classifier
