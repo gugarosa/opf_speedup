@@ -44,10 +44,9 @@ if __name__ == '__main__':
     # Opening the output file
     with open(output_file, 'w') as f:
         # Writing the header
-        f.write('distance,accuracy,precision,recall,f1\n')
+        f.write('distance,train_time,predict_time\n')
 
         # Iterates through every distance metric
         for i, key in enumerate(d.DISTANCES.keys()):
-            # Writing the metrics
-            f.write(f"{key},{report[i]['accuracy']},{report[i]['macro avg']['precision']},"
-                    f"{report[i]['macro avg']['recall']},{report[i]['macro avg']['f1-score']}\n")
+            # Writing the outputs
+            f.write(f"{key},{report[i][0]},{report[i][1]}\n")
