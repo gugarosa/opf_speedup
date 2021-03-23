@@ -1,0 +1,4 @@
+# Unwanted files
+*.npy
+*.pkl
+*.txt
