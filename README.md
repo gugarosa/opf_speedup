@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ### Data configuration
 
-Please [download](http://recogna.tech/files/opf_distance/data.tar.gz) the datasets in the OPF file format and then put them on a `data/` folder.
+Please [download](https://www.recogna.tech/files/opf_speedup/data.tar.gz) the datasets in the OPF file format and then put them on a `data/` folder.
 
 ---
 
