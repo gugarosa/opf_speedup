@@ -8,7 +8,15 @@
 
 If you use our work to fulfill any of your needs, please cite us:
 
-```
+```bibtex
+@misc{rosa2021speedup,
+      title={Speeding Up OPFython with Numba}, 
+      author={Gustavo H. de Rosa and João Paulo Papa},
+      year={2021},
+      eprint={2106.11828},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
 
 ---
